@@ -142,5 +142,6 @@ def update_map(n_heatmap, n_markers, n_bridges, n_collisions):
 
     return m._repr_html_()
 
-if __name__ == "__main__":
-    app.run_server(debug=True)
+server = app.server 
+
+
